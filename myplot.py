@@ -41,7 +41,7 @@ for columns, a in zip(itertools.combinations(["Food_waste", "Paper", "Wood", "Te
         no_ticks=True,
     )
     a.legend(frameon=False, facecolor=None, loc=(0.8, 0.5))
-plt.savefig('ternary.pdf')
+plt.savefig('ternary.png')
 
 
 # Second Plot
@@ -104,4 +104,4 @@ for ix, (m1, m2) in enumerate(means):
         a.set_yticks([])
 
 plt.tight_layout()
-plt.savefig('lognormal.pdf')
+plt.savefig('lognormal.png')
