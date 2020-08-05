@@ -18,10 +18,10 @@ You can simply install pyrolite using the command:
 
 
 ## Dependencies:
--Matplotlib
--Numpy
--Pandas
--Scipy
+ -'Matplotlib'
+ -'Numpy'
+ -'Pandas'
+ -'Scipy'
 
 ## Build Report:
 Run 'make' to build the project report.
