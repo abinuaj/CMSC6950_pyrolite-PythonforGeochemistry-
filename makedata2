@@ -1,0 +1,1 @@
+ wget "https://www.rcsb.org/fasta/entry/6GVW" --output-document=BCRA1.fasta
