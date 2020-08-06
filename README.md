@@ -1,27 +1,37 @@
 ## Project Details:
 
- Analysing Compositional Data using pyrolite
+ Finding Breakpoints in viral genome using `recan`
 
-pyrolite is a Python package for working with compositional data, transforming geochemical variables and have functions for common plotting tasks.This project makes use of pyrolite's plotting functions.
+`recan` is a Python package used for constructing distance plots for the exploration and discovery of recombination events in genomes. 
 
-Software:https://github.com/morganjwilliams/pyrolite.git
+Software: `https://github.com/babinyurii/recan`
 
-Data Source:
+Data Source: `https://www.rcsb.org/`
 
-https://www.sciencedirect.com/science/article/pii/S1001074217321307
+
 
 ## Installation:
 
-You can simply install pyrolite using the command:
+Recan is supported on Linux and Windows.You can simply install`recan` using the command:
 
-       'pip install pyrolite'
+       `pip install recan`
 
+## Installation Test:
+
+Run:
+
+$ pytest test.py
+
+or
+
+$ python -m unittest test.py
 
 ## Dependencies:
- -'Matplotlib'
- -'Numpy'
- -'Pandas'
- -'Scipy'
+ -`Matplotlib`
+ -`Numpy`
+ -`Pandas`
+ -`Biopython`
+ -`Plotly`
 
 ## Build Report:
 Run 'make' to build the project report.
