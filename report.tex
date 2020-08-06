@@ -21,8 +21,7 @@ The fasta sequence of viral genomes can be obtained from any of the protein data
 
 \section{Results and Discussion:}
 \subsection{Breakpoints:}
-In genetics, the rearrangement of chromosomes is called mutation.It is an abnormality in the chromosome involving a change in the native chromosome  \cite{zhao2012genome}.Theses changes may involve  several events such as, duplication, inversion, deletion and translocation.These events are usually caused by a breakage in the helices of DNA and rejoining of the broken ends to form a new gene,different from the gene order of the chromosomes before they were broken \cite{griffiths2002modern}.Some regions of chromosomes are more susceptible for rearrangements than others and thus are sources of genetic diseases and cancer.The Figure\ref{Figure:1} shows the breakpoints of lumky skin disease viral genome.
-
+In genetics, the rearrangement of chromosomes is called mutation.It is an abnormality in the chromosome involving a change in the native chromosome  \cite{zhao2012genome}.Theses changes may involve  several events such as, duplication, inversion, deletion and translocation.These events are usually caused by a breakage in the helices of DNA and rejoining of the broken ends to form a new gene,different from the gene order of the chromosomes before they were broken \cite{griffiths2002modern}.Some regions of chromosomes are more susceptible for rearrangements than others and thus are sources of genetic diseases and cancer.The Figure\ref{Figure:1} shows the breakpoints of lumky skin disease viral genome. We can see that, the recombination breakpoints are at around nucleotide number 1500 and at 1800. This is the clear evidence that recombination is taking place and the genome is undergoing mutation.
 \begin{figure}
     \centering
     \includegraphics[height=8cm]{distance_plot}
@@ -30,34 +29,41 @@ In genetics, the rearrangement of chromosomes is called mutation.It is an abnorm
     \label{Figure:1}
 \end{figure}
 
+\subsection{FASTA Sequence Plotting}
+The FASTA sequences of genomes can be visualized in several ways. We can make use of the Biopython package of renac for plotting the sequence of BCRA1 gene having multiple sequences.The Figure\ref{Figure:2} shows the line plot and  Figure\ref{Figure:3} shows the histogram of BCRA1 gene.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+One of the most commonly used analytical data to compare different sequence is GC Percentage. In genetics and molecular biology, GC content(or guanine-cytosine content) is the s the percentage of nitrogenous bases in a DNA or RNA molecule that are either guanine (G) or cytosine (C)\cite{protozanova2006base}.The GC percentage indicates the proportion of 
+bases out of an implied four total bases, also including adenine and thymine in DNA and adenine and uracil in RNA.Figure\ref{Figure:4}shows the GC percentage of BCRA1 gene.
 \begin{figure}
     \centering
-    \includegraphics[width=0.9\textwidth]{}
-    \caption{Caption}
-    \label{ternary}
+    \includegraphics[height=8cm]{line_plot.png}
+    \caption{Line plot}
+    \label{Figure:2}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.9\textwidth]{}
-    \caption{Caption}
-    \label{ternary}
+    \includegraphics[height=8cm]{hist.png}
+    \caption{Histogram}
+    \label{Figure:3}
 \end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[height=8cm]{gcplot.png}
+    \caption{GC Content}
+    \label{Figure:4}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
 
 
 
