@@ -20,7 +20,7 @@ plt.plot(df.loc["contig_assembly_2", : ], lw=7, alpha=0.7, label="contig_assembl
 
 plt.ylim(0.85, 1.05)
 plt.title("Similarity Distance Plot", fontsize=30,color="blue")
-plt.ylabel("distance relative to Ba", fontsize=20)
+plt.ylabel("distance relative to KY829023.3", fontsize=20)
 plt.xlabel("nucleotide position", fontsize=20)
 plt.xticks(fontsize=13)
 plt.yticks(fontsize=13)
