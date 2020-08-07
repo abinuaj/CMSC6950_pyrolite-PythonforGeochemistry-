@@ -16,16 +16,18 @@ hist.png:BCRA1.fasta histogram.py
 
 lumky.fasta :
 	./makedata
-
-BCRA1:
+BCRA1.fasta:
 	./makedata2
+
+	
 .PHONY: clean almost_clean
 
 clean:almost_clean
+	rm report.bbl
+	rm line_plot.png
 	rm BCRA1.fasta
 	rm lumpy.fasta
 	rm report.pdf
-	rm line_plot.png
 	rm distance_plot.png
 	rm gcplot.png
 	rm hist.png
@@ -34,7 +36,6 @@ clean:almost_clean
 	rm report.fls
 	rm report.out
 	rm report.log
-	rm report.bbl
 	rm report.blg
 	
 
