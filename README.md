@@ -35,4 +35,4 @@ $ python -m unittest test.py
 
 ## Build Report:
 Run 'make' to build the project report.
- 
+Enter 'A' when prompted during make. 

@@ -1,2 +1,14 @@
 wget "https://drive.google.com/uc?export=download&id=1xkSlIA-yzbbd-TuGuuzJfg-6QOCXmTJX" --output-document=lumpy.fasta                                               
 
+
+ wget "https://www.rcsb.org/fasta/entry/6GVW" --output-document=BCRA1.fasta
+ 
+ 
+ wget "https://drive.google.com/uc?export=download&id=1ssquwz7_7WnQ_xjwStJmBgp2DIwK9zXH" --output-document=data1.zip
+
+unzip data1.zip
+
+
+wget "https://drive.google.com/uc?export=download&id=1acSICqCnO-cY4A9WFyuXd7UbrbwvItnk" --output-document=data2.zip
+
+unzip data2.zip
