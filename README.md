@@ -32,6 +32,7 @@ $ python -m unittest test.py
  -`Pandas`
  -`Biopython`
  -`Plotly`
+ -`unzip`
 
 ## Build Report:
 Run 'make' to build the project report.
